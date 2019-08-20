@@ -1,0 +1,32 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-nextjst",
+  "version": "0.0.1",
+  "description": "To get you started using Next.js",
+  "main": "server.js",
+  "scripts": {
+    "build": "next",
+    "start": "next"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "next": "^8.1.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/erickouassi/hello-nextjs.gist"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "next.js"
+  ]
+}
